@@ -19,6 +19,7 @@ A reference SFP module that Partner provides is the [OPKAS1004](datasheets/OPKAS
 
 ### Devices
 
-| Image | Model | Description | Datasheet | Status |
+| Image | Model | Description | Details | Status |
 | ----- | ----- | ----------- | --------- | ------ |
-| ![](imgs/OPKAS1004.01.png) | OPKAS1004 | SFP | [OPKAS1004%20-%20DS_SFP-31W2Bah-DR(OPKAS1004)_SP.pdf](datasheets/OPKAS1004%20-%20DS_SFP-31W2Bah-DR(OPKAS1004)_SP.pdf) | ✅ Vendor supplied |
+| ![](imgs/OPKAS1004.01.png) | OPKAS1004 | Reference SFP module supplied by Partner | [Datasheet](datasheets/OPKAS1004%20-%20DS_SFP-31W2Bah-DR(OPKAS1004)_SP.pdf) | :heavy_check_mark: Reference |
+| ![](imgs/75336.main.jpg) | FS.com #75336 | Generic Compatible 1000BASE-BX BiDi SFP 1490nm-TX/1310nm-RX 10km DOM LC SMF Transceiver Module | [FS.com](https://www.fs.com/products/75336.html) | :grey_question: Pending testing |
