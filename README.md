@@ -57,3 +57,7 @@ Bezeq deploys GPON networks, and [publishes the following devices](datasheets/gp
  HALNY        CPE GW ONT         HL-4GQVS2         HALN     V3.0.18
 Technicolor   CPE GW ONT          FGA2233          TMBB     2233.19.4.1
 ```
+
+The Nokia G-010S-A has been partially reverse engineered as documented in https://github.com/hwti/G-010S-A (also see the [official datasheet](datasheets/ale-gpon-nokia-ont-g-010s-a-datasheet-en.pdf))
+
+There is a long thread at https://htmag.co.il/phpbb/viewtopic.php?f=62&t=367574 which documents usage of Bezeq GPON with custom 2.5G equipment (Hebrew) 
