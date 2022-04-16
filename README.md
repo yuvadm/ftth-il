@@ -13,7 +13,7 @@ Each uses slightly different infrastructure and configurations. This repository 
 
 Partner markets their service as "private fiber" which means they use P2P instead of GPON. Effectively, most users do not notice significant performance speedup.
 
-The fiber connection used is a simplex WDM LC-terminated fiber that uses 1490nm wavelength for TX and 1310nm for RX.
+The fiber connection used is a single-mode simplex BiDi (WDM) LC-terminated fiber that uses 1490nm wavelength for TX and 1310nm for RX.
 
 The reference SFP module that Partner provides is the [OPKAS1004](datasheets/OPKAS1004%20-%20DS_SFP-31W2Bah-DR(OPKAS1004)_SP.pdf).
 
