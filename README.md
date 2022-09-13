@@ -30,26 +30,46 @@ The reference SFP module that Partner provides is the [OPKAS1004](datasheets/OPK
 Bezeq deploys GPON networks, and [publishes the following devices](datasheets/gpon.pdf) that are tested and "approved" for use:
 
 ```
-|     Manufacturer        |     Appliance Type |     Model          | Supported Firmware Versions                                                    |
-|-------------------------|--------------------|--------------------|--------------------------------------------------------------------------------|
-|     Nokia               |     SFP ONT        |     G-010S-A       |     3FE47111AGAA92        3FE46398BGCB22                                       |
-|     Nokia               |     SFP ONT        |     G-010S-Q       |     3FE49494AOCK21                                                             |
-|     CIG                 |     SFP ONT        |     G97-S          |     R4.2.104.035a                                                              |
-|     HT                  |     SFP ONT        |     HT-25SPON      |     V1.0.2.3                                                                   |
-|     Adtran              |     BRIDGE ONT     |     SDX611         |     V1.3.4      V1.3.5                                                         |
-|     Nokia               |     BRIDGE ONT     |     G-010G-P/Q     |     3FE45655AOCK88        3FE45655BOCK71                                       |
-|     ZTE                 |     BRIDGE ONT     |     F601           |     V6.0.1P1T12                                                                |
-|     HALNY               |     BRIDGE ONT     |     HL-1GE         |     V2.0.22b                                                                   |
-|     Heights Telecom     |     CPE GW ONT     |     CPE-B2         |     BZG_360.1011                                                               |
-|     Heights Telecom     |     CPE GW ONT     |     HT-360AXG      |     XF_360.13003                                                               |
-|     Heights Telecom     |     CPE GW ONT     |     HT-360AXI      |     YES_H_1303                                                                 |
-|     Accel               |     CPE GW ONT     |     FAST5670       |     SGFs10000219                                                               |
-|     Accel               |     CPE GW ONT     |     Fast5657IL     |     SGDg100000099      SGDg100000102      SGDg100000106      SGDg100000108     |
-|     Accel               |     CPE GW ONT     |     Fast5670IL     |     SGFz10000005                                                               |
-|     Accel               |     CPE GW ONT     |     Fast5670IL     |     SGFx10000017                                                               |
-|     Accel               |     CPE GW ONT     |     FAST5670       |     SGFy10000075                                                               |
-|     HALNY               |     CPE GW ONT     |     HL-4GQVS2      |     V3.0.18                                                                    |
-|     Technicolor         |     CPE GW ONT     |     FGA2233        |     2233.19.4.1                                                                |
+                                                     3FE47111AGAA92
+ Nokia       SFP ONT        G-010S-A      ALCL
+                                                     3FE46398BGCB22
+ Nokia       SFP ONT        G-010S-Q      ALCL       3FE49494AOCK21
+  CIG        SFP ONT          G97-S       RSHF       R4.2.104.035a
+  HT         SFP ONT       HT-25SPON      HTSP       V1.0.2.3
+                                                     V1.3.4
+Adtran      BRIDGE ONT       SDX611       ADTN
+                                                     V1.3.5
+                                                     3FE45655AOCK88
+ Nokia      BRIDGE ONT     G-010G-P/Q     ALCL
+                                                     3FE45655BOCK71
+ ZTE        BRIDGE ONT        F601        ZTEG       V6.0.1P1T12
+HALNY       BRIDGE ONT       HL-1GE       HALN       V2.0.22b
+Heights
+            CPE GW ONT       CPE-B2       HTBZ       BZG_360.1011
+Telecom
+Heights
+            CPE GW ONT     HT-360AXG      HTXG       XF_360.13003
+Telecom
+Heights
+            CPE GW ONT      HT-360AXI     HTYE       YES_H_1303
+Telecom
+ Accel      CPE GW ONT     FAST5670       SMBS       SGFs10000219
+                                                     SGDg100000099
+                                                     SGDg100000102
+ Accel      CPE GW ONT     Fast5657IL     SMBS       SGDg100000106
+                                                     SGDg100000108
+                                                     SGDg100000119
+ Accel      CPE GW ONT     Fast5670IL     SMBS       SGFz10000005
+ Accel      CPE GW ONT     Fast5670IL     SMBS       SGFx10000017
+                                                     SGFy10000075
+ Accel      CPE GW ONT     FAST5670       SMBS
+                                                     SGFy10000079
+ Accel      CPE GW ONT    Fast5670V2IL    SMBS       SGFg12000016
+ HALNY        CPE GW ONT         HL-4GQVS2         HALN     V3.0.18
+Technicolor   CPE GW ONT          FGA2233          TMBB     2233.19.4.1
+ HALNY        CPE GW ONT         HL-4GXV-F         HALN     V3.1.20p11
+ HALNY        CPE GW ONT           HL-4GXV         HALN     V3.1.21t
+
 ```
 
 The Nokia G-010S-A has been partially reverse engineered as documented in https://github.com/hwti/G-010S-A (also see the [official datasheet](datasheets/ale-gpon-nokia-ont-g-010s-a-datasheet-en.pdf))
