@@ -80,3 +80,8 @@ The Nokia G-010S-A has been partially reverse engineered as documented in https:
 Another datasheet available is for the [CIG G97-S](datasheets/G-97S_DataSheet_V2.pdf)
 
 There is a long thread at https://htmag.co.il/phpbb/viewtopic.php?f=62&t=367574 which documents usage of Bezeq GPON with custom 2.5G equipment (Hebrew) 
+
+## Other resources
+
+- [HT magazine fiber forum](https://htmag.co.il/phpbb/viewforum.php?f=62)
+- [ILFiber facebook group](https://www.facebook.com/groups/ILFiber)
