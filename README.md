@@ -20,6 +20,8 @@ The fiber connection used is a single-mode simplex BiDi (WDM) LC/UPC fiber that 
 
 The reference SFP module that Partner provides is the [OPKAS1004](datasheets/OPKAS1004%20-%20DS_SFP-31W2Bah-DR(OPKAS1004)_SP.pdf).
 
+User connections are usually configured as DHCP, but can also be set to PPPoE.
+
 ### Devices
 
 | Image | Model | Description | Status |
