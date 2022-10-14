@@ -33,7 +33,11 @@ User connections are usually configured as DHCP, but can also be set to PPPoE.
 
 ## Bezeq
 
-Bezeq deploys GPON networks, and [publishes the following devices](datasheets/gpon.pdf) that are tested and "approved" for use:
+Bezeq deploys GPON networks that are able to support up to 2.5GBbps of bandwidth.
+
+The fiber connection used is based on 1490nm TX / 1310nm RX GPON, and is usually terminated with LC APC ports.
+
+Bezeq usually requires activation of ONTs and [publishes the following devices](datasheets/gpon.pdf) that are tested and "approved" for use:
 
 ```
                                                      3FE47111AGAA92
