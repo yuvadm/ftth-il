@@ -82,6 +82,8 @@ Technicolor   CPE GW ONT          FGA2233          TMBB     2233.19.4.1
 
 ```
 
+ONT activation can be done only by Bezeq technicians on site or through their customer service, and requires the serial number of an approved device.
+
 The Nokia G-010S-A has been partially reverse engineered as documented in https://github.com/hwti/G-010S-A (also see the [official datasheet](datasheets/ale-gpon-nokia-ont-g-010s-a-datasheet-en.pdf))
 
 Another datasheet available is for the [CIG G97-S](datasheets/G-97S_DataSheet_V2.pdf)
