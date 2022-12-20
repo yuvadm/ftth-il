@@ -30,6 +30,7 @@ User connections are usually configured as DHCP, but can also be set to PPPoE.
 | <img src="imgs/75336.main.jpg" width="100"> | [FS.com #75336](https://www.fs.com/products/75336.html) | Generic Compatible 1000BASE-BX BiDi SFP 1490nm-TX/1310nm-RX 10km DOM LC SMF Transceiver Module | :heavy_check_mark: Tested |
 | <img src="imgs/75336.main.jpg" width="100"> | [FS.com #37925](https://www.fs.com/products/37925.html) | Customized 1000BASE-BX BiDi SFP 1490nm-TX/1310nm-RX 10km DOM Simplex LC/SC SMF Transceiver Module | :heavy_check_mark: Tested |
 | <img src="imgs/40442.main.jpg" width="100"> | [FS.com #40442](https://www.fs.com/products/40442.html) | LC UPC to LC UPC Simplex OS2 Single Mode PVC (OFNR) 2.0mm Fiber Optic Patch Cable | :heavy_check_mark: Tested |
+| <img src="imgs/11795.main.jpg" width="100"> | [FS.com #11795](https://www.fs.com/products/11795.html) | Cisco GLC-BX-D Compatible 1000BASE-BX-D BiDi SFP 1490nm-TX/1310nm-RX 10km DOM Simplex LC SMF Transceiver Module | :heavy_check_mark: Tested |
 
 ## Bezeq
 
