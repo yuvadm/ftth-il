@@ -26,7 +26,7 @@ User connections are usually configured as DHCP, but can also be set to PPPoE.
 
 | Image | Model | Description | Status |
 | ----- | ----- | ----------- | ------ |
-| <img src="imgs/OPKAS1004.01.png" width="100"> | [OPKAS1004](datasheets/OPKAS1004%20-%20DS_SFP-31W2Bah-DR(OPKAS1004)_SP.pdf) | SFP-31W2Bah(SM-10)-TX1490 RX1310-Purpule | :heavy_check_mark: Reference |
+| <img src="imgs/OPKAS1004.01.png" width="100"> | [OPKAS1004](datasheets/OPKAS1004%20-%20DS_SFP-31W2Bah-DR(OPKAS1004)_SP.pdf) | SFP-31W2Bah(SM-10)-TX1490 RX1310-Purple | :heavy_check_mark: Reference |
 | <img src="imgs/75336.main.jpg" width="100"> | [FS.com #75336](https://www.fs.com/products/75336.html) | Generic Compatible 1000BASE-BX BiDi SFP 1490nm-TX/1310nm-RX 10km DOM LC SMF Transceiver Module | :heavy_check_mark: Tested |
 | <img src="imgs/75336.main.jpg" width="100"> | [FS.com #37925](https://www.fs.com/products/37925.html) | Customized 1000BASE-BX BiDi SFP 1490nm-TX/1310nm-RX 10km DOM Simplex LC/SC SMF Transceiver Module | :heavy_check_mark: Tested |
 | <img src="imgs/40442.main.jpg" width="100"> | [FS.com #40442](https://www.fs.com/products/40442.html) | LC UPC to LC UPC Simplex OS2 Single Mode PVC (OFNR) 2.0mm Fiber Optic Patch Cable | :heavy_check_mark: Tested |
@@ -90,6 +90,16 @@ The Nokia G-010S-A has been partially reverse engineered as documented in https:
 Another datasheet available is for the [CIG G97-S](datasheets/G-97S_DataSheet_V2.pdf)
 
 There is a long thread at https://htmag.co.il/phpbb/viewtopic.php?f=62&t=367574 which documents usage of Bezeq GPON with custom 2.5G equipment (Hebrew) 
+
+## Hot
+
+Hot deploys GPON networks.
+
+The fiber connection used is based on GPON, and is terminated with SC APC ports.
+
+| Image | Model | Description | Status |
+| ----- | ----- | ----------- | ------ |
+| <img src="imgs/g657b3_sc.jpg" width="100"> | e.g. [Simplex patch cable](https://www.fiber-opticpatchcables.com/quality-11343201-simplex-2-25m-fiber-optic-patch-cables-g657b3-sc-apc-sc-apc-9-125-m-singlemode) | Fiber-optic patch cable G657B3 SC APC - SC APC 9 / 125μm Singlemode 3.0 mm | :heavy_check_mark: Reference |
 
 ## Other resources
 
