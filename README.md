@@ -2,11 +2,12 @@
 
 Fiber-to-the-Home (FTTH) in Israel is provided to private consumers by several different telecom companies:
 
-  - [x] [Partner](https://www.partner.co.il/)
-  - [x] [Bezeq](https://www.bezeq.co.il/)
-  - [ ] [Cellcom](https://cellcom.co.il/)
-  - [ ] [Unlimited](https://www.unlimited.net.il/)
-  - [ ] [Hot](https://www.hot.net.il/)
+  - [x] [Partner](#partner)
+  - [x] [Bezeq](#bezeq)
+  - [x] [Hot](#hot)
+  - [ ] Cellcom
+  - [ ] Unlimited
+
 
 Each uses slightly different infrastructure and configurations. This repository documents the technical details for each telecom. Additionally, the goal for this repo is to provide details on the performance of each provider so that private customers can make smart decisions that consider which provider offers the best service.
 
