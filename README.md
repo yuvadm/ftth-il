@@ -42,6 +42,7 @@ Bezeq deploys GPON networks that are able to support up to 2.5GBbps of bandwidth
 The fiber connection used is based on 1490nm TX / 1310nm RX GPON, and is usually terminated with LC APC ports.
 
 Bezeq usually requires activation of ONTs (done over the phone through their technical support department) and [publishes the following devices](datasheets/gpon.pdf) that are "officially approved" for use (list updated by Bezeq on **16.08.2026**):
+Please be updated with this [Bezeq-maintained list](www.bezeq.co.il/media/PDF/terminal-equipment-approved-for-use-in-the-gpon-bezeq-network.pdf).
 
 #### SFP ONTs
 
