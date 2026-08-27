@@ -41,50 +41,90 @@ Bezeq deploys GPON networks that are able to support up to 2.5GBbps of bandwidth
 
 The fiber connection used is based on 1490nm TX / 1310nm RX GPON, and is usually terminated with LC APC ports.
 
-Bezeq usually requires activation of ONTs and [publishes the following devices](datasheets/gpon.pdf) that are tested and "approved" for use:
+Bezeq usually requires activation of ONTs (done over the phone through their technical support department) and [publishes the following devices](datasheets/gpon.pdf) that are "officially approved" for use (list updated by Bezeq on **16.08.2026**):
+Please be updated with this [Bezeq-maintained list](www.bezeq.co.il/media/PDF/terminal-equipment-approved-for-use-in-the-gpon-bezeq-network.pdf).
 
-```
-                                                     3FE47111AGAA92
- Nokia       SFP ONT        G-010S-A      ALCL
-                                                     3FE46398BGCB22
- Nokia       SFP ONT        G-010S-Q      ALCL       3FE49494AOCK21
-  CIG        SFP ONT          G97-S       RSHF       R4.2.104.035a
-  HT         SFP ONT       HT-25SPON      HTSP       V1.0.2.3
-                                                     V1.3.4
-Adtran      BRIDGE ONT       SDX611       ADTN
-                                                     V1.3.5
-                                                     3FE45655AOCK88
- Nokia      BRIDGE ONT     G-010G-P/Q     ALCL
-                                                     3FE45655BOCK71
- ZTE        BRIDGE ONT        F601        ZTEG       V6.0.1P1T12
-HALNY       BRIDGE ONT       HL-1GE       HALN       V2.0.22b
-Heights
-            CPE GW ONT       CPE-B2       HTBZ       BZG_360.1011
-Telecom
-Heights
-            CPE GW ONT     HT-360AXG      HTXG       XF_360.13003
-Telecom
-Heights
-            CPE GW ONT      HT-360AXI     HTYE       YES_H_1303
-Telecom
- Accel      CPE GW ONT     FAST5670       SMBS       SGFs10000219
-                                                     SGDg100000099
-                                                     SGDg100000102
- Accel      CPE GW ONT     Fast5657IL     SMBS       SGDg100000106
-                                                     SGDg100000108
-                                                     SGDg100000119
- Accel      CPE GW ONT     Fast5670IL     SMBS       SGFz10000005
- Accel      CPE GW ONT     Fast5670IL     SMBS       SGFx10000017
-                                                     SGFy10000075
- Accel      CPE GW ONT     FAST5670       SMBS
-                                                     SGFy10000079
- Accel      CPE GW ONT    Fast5670V2IL    SMBS       SGFg12000016
- HALNY        CPE GW ONT         HL-4GQVS2         HALN     V3.0.18
-Technicolor   CPE GW ONT          FGA2233          TMBB     2233.19.4.1
- HALNY        CPE GW ONT         HL-4GXV-F         HALN     V3.1.20p11
- HALNY        CPE GW ONT           HL-4GXV         HALN     V3.1.21t
+#### SFP ONTs
 
-```
+| Manufacturer | Model | Vendor ID | Technology | Approved firmware |
+| --- | --- | --- | --- | --- |
+| Nokia | G-010S-A | `ALCL` | GPON | `3FE47111AGAA92`<br>`3FE46398BGCB22` |
+| Nokia | G-010S-Q | `ALCL` | GPON | `3FE49494AOCK21` |
+| CIG | G97-S | `RSHF` | GPON | `R4.2.104.035a` |
+| HT | HT-25SPON | `HTSP` | GPON | `V1.0.2.3` |
+| GO Fiber | G97-S | `DRCO` | GPON | `R4.2.104.049` |
+| GO Fiber | GF25 | `GFBD` | GPON | `R4.2.104.049` |
+| HALNY | HL-GSFP | `HALN` | GPON | `V1.0.9` |
+
+#### Bridge ONTs
+
+| Manufacturer | Model | Vendor ID | Technology | Approved firmware |
+| --- | --- | --- | --- | --- |
+| Adtran | SDX611 | `ADTN` | GPON | `V1.3.4`<br>`V1.3.5`<br>`V1.3.10` |
+| Adtran | SDX611D | `ADTN` | GPON | `V2.3.8` |
+| Adtran | SDX611Q | `ADTN` | GPON | `V2.3.12` |
+| Adtran | SDX631 | `ADTN` | XGS-PON | `24_2-2-a` |
+| Nokia | G-010G-P/Q | `ALCL` | GPON | `3FE45655AOCK88`<br>`3FE45655BOCK71` |
+| Nokia | G-010G-T | `ALCL` | GPON | `3FE49717AOCK12` |
+| ZTE | F601 | `ZTEG` | GPON | `V6.0.1P1T12` |
+| ZTE | F6005V3.0 | `ZTEG` | GPON | `V3.0.10P80N1` |
+| HALNY | HL-1GE | `HALN` | GPON | `V2.0.22b` |
+| HALNY | HL-1GE2 | `HALN` | GPON | `V2.0.22` |
+| CDATA | FD511G-X-F660 | `CDGB` | GPON | `V1.3.8` |
+| CDATA | FD511T-R460S | `CDTC` | XGS-PON | `V3.2.12` |
+| CDATA | FD511H-R360 | `CDGB` | XGS-PON | `V3.0.4` |
+| D-Link | DPN-101GR1 | `DLNK` | GPON | `RU_1.22-220225` |
+| GO Fiber | GF25C | `GFBD` | GPON | `V1.9.0-231020`<br>`V1.9.0-231108`<br>`V1.9.0-240329`<br>`V1.9.2-240924` |
+| GO Fiber | GF10C | `GFBD` | XGS-PON | `R4.4.22C.008` |
+| GO Fiber | GF10SK | `GFBD` | XGS-PON | `V1.0.10`<br>`V1.0.14` |
+| DZS | 5302 | `ZNTS` | XGS-PON | `V2.2.13` |
+
+#### CPE Gateway ONTs
+
+| Manufacturer | Model | Vendor ID | Technology | Approved firmware |
+| --- | --- | --- | --- | --- |
+| Heights Telecom | CPE-B2 | `HTBZ` | GPON | `BZG_360.1019` |
+| Heights Telecom | HT-360AXG | `HTXG` | GPON | `XF_360.13003` |
+| Heights Telecom | HT-360AXG | `HTGI` | GPON | `GI_360G.1003` |
+| Heights Telecom | HT-360AXI | `HTYE` | GPON | `YES_H_1303` |
+| HT | HT-360AXI-V2 | `HTRM` | GPON | `RI.360R.029` |
+| HT | HTBCM370BE | `HTCM` | GPON | `CL_370BE.032`<br>`CL_370BE.201` |
+| Accel | FAST5670 | `SMBS` | GPON | `SGFs10000257` |
+| Accel | FAST5670 | `SMBS` | GPON | `SGFy10000079`<br>`SGFy10000093`<br>`SGFy10000113`<br>`SGFy10000149`<br>`SGFy10000157` |
+| Accel | Fast5657IL | `SMBS` | GPON | `SGDg100000108`<br>`SGDg100000119`<br>`SGDg100000122` |
+| Accel | Fast5670IL | `SMBS` | GPON | `SGFz10000005` |
+| Accel | Fast5670IL | `SMBS` | GPON | `SGFx10000017`<br>`SGFx10000377` |
+| Accel | Fast5670V2IL | `SMBS` | GPON | `SGFg12000032`<br>`SGFg12000036`<br>`SGFg12000060`<br>`SGFg12000116` |
+| Accel | FAST5674 | `SMBS` | GPON | `SGOg10000114`<br>`SGOg10000180` |
+| Accel | FAST5674 | `SMBS` | GPON | `SGUy10000067` |
+| Accel | FAST5674 | `SMBS` | GPON | `SGOB610000008` |
+| Accel | FAST5698IL | `SMBS` | GPON / XGS-PON | `SGMg30000042`<br>`SGMg30000158` |
+| HALNY | HL-4GQVS2 | `HALN` | GPON | `V3.0.18` |
+| HALNY | HL-4GXV-F | `HALN` | GPON | `V3.1.20p11`<br>`V3.99.1` |
+| HALNY | HL-4GXV | `HALN` | GPON | `V3.1.21t` |
+| Technicolor | FGA2233 | `TMBB` | GPON | `2233.19.4.1`<br>`2233.19.5.1`<br>`2233.19.5.2` |
+| Vantiva | FGA232A | `TMBB` | GPON | `232A.23.2.1`<br>`232A.23.2.2` |
+| AVM GmbH | FRITZ!Box 5530 | `AVMG` | GPON | `08.25-133601` |
+| AVM GmbH | FRITZ!Box 5590 | `AVMG` | GPON / XGS-PON | `08.25-133860` |
+| AVM GmbH | FRITZ!Box 5690G | `AVMG` | GPON | `08.25-134002` |
+| AVM GmbH | FRITZ!Box 5690X | `AVMG` | XGS-PON | `08.25-133396` |
+| CDATA | FD504GW-DX-R471 | `CDGT` | GPON | `V2.4.10`<br>`V3.2.19` |
+| CDATA | FD614GS3-R850 | `CDTC` / `CDGT` | GPON | `V3.2.7` |
+| CDATA | FD624TS3-R850 | `CDTC` | XGS-PON | `V3.2.24` |
+| GO Fiber | GFD130 | `GFBD` | GPON | `V1.0.1.1` |
+| GO Fiber | GFD172 | `GFBD` | GPON | `172_1.0.47`<br>`172_1.0.64`<br>`172_2.0.8`<br>`172_2.0.11`<br>`172_4.0.3` |
+| GO Fiber | GFD172X | `GFBD` | XGS-PON | `172X_1.0.18` |
+| GO Fiber | GFD430 | `GFBD` | GPON | `GFD430-V4.0.19`<br>`GFD430-V4.0.30` |
+| Opfibra | BT-G711AX | `XPON` | GPON | `V3.1.20p11` |
+| Zyxel | PX5301-T0 | `ZYXE` | GPON | `V100ACKB0E1` |
+| ZTE | F6705EV3.0.2 | `ZTEG` | GPON | `V3.0.10P80N1` |
+| SAGEM | F@ST5674 | `PTIN` | GPON | `3GNX050200R06` |
+
+Bezeq notes on the list:
+
+- Equipment is approved **only** with the firmware version listed in the table; a product with modified software is not covered by the approval.
+- Bezeq may disconnect or block a product that was not approved but is active on the network.
+- The compatibility approval is not a "quality mark" for the product.
 
 ONT activation can be done only by Bezeq technicians on site or through their customer service, and requires the serial number of an approved device.
 
